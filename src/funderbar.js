@@ -24,7 +24,7 @@ _.dataType = function(input){
   return dataType;
   console.log(typeof input)
 }
-
+//comment 2 berg
 //_.sum takes two numbers as parameters and returns their sum
 _.sum = function(a,b){
     //Code Goes Below

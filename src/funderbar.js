@@ -191,7 +191,8 @@ _.falsyOrTruthy = function(a){
 
       for (let i = 0; i < a.length; i++) {
         //if its an intriger, we will do addition else, not equal to intreger, it is equal to one
-        if (something += a[i]) {
+        if (typeof a[i] === 'number') {
+          something += a[i];
         } else {
           something += 1;
         } 
